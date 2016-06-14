@@ -1,0 +1,332 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Run Charts</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/copy-of-lss-theme/copy1011.css"><meta name="Microsoft Theme" content="copy-of-lss-theme 1011, default">
+<meta name="Microsoft Border" content="tlb, default">
+</head>
+
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+
+
+
+<p style="text-align: center">
+<script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home_cmp_radius010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="index.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Lss Tool Chest Site" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/up_cmp_radius010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/up_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="sigma_Tools.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/up_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Up" align="middle" name="MSFPnav2"></a>
+<script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/ext1073_cmp_radius010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/ext1073_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="../MainSite/index.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/ext1073_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Main LSS Site" align="middle" name="MSFPnav3"></a></p>
+<div align="center">
+	<table border="0" width="580" height="81">
+		<tr>
+			<td height="81" width="216" bgcolor="#FFFFFF">
+			<p style="text-align: center">
+			<img border="0" src="_borders/banner2.gif" width="555" height="150"></td>
+		</tr>
+	</table>
+	<p><font size="5">
+	<script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/Define_Phase.htm_cmp_radius010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/Define_Phase.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Define_Phase.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/Define_Phase.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Define" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/Measure_Phase.htm_cmp_radius010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/Measure_Phase.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Measure_Phase.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/Measure_Phase.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Measure" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/Analyze_Phase.htm_cmp_radius010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/Analyze_Phase.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Analyze_Phase.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/Analyze_Phase.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Analyze" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/improve_phase.htm_cmp_radius010_hbtn.gif"); MSFPnav7h=MSFPpreload("_derived/improve_phase.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="improve_phase.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/improve_phase.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Improve" align="middle" name="MSFPnav7"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav8n=MSFPpreload("_derived/control_phase.htm_cmp_radius010_hbtn.gif"); MSFPnav8h=MSFPpreload("_derived/control_phase.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="control_phase.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8h.src" onmouseout="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8n.src"><img src="_derived/control_phase.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Control" align="middle" name="MSFPnav8"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav9n=MSFPpreload("_derived/sigma_Tools.htm_cmp_radius010_hbtn.gif"); MSFPnav9h=MSFPpreload("_derived/sigma_Tools.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="sigma_Tools.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9h.src" onmouseout="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9n.src"><img src="_derived/sigma_Tools.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Tool Index" align="middle" name="MSFPnav9"></a></font></div>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+<p>&nbsp;</p>
+<p>
+<script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav10n=MSFPpreload("_derived/home_cmp_radius010_hbtn.gif"); MSFPnav10h=MSFPpreload("_derived/home_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="index.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10h.src" onmouseout="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10n.src"><img src="_derived/home_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Lss Tool Chest Site" align="middle" name="MSFPnav10"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav11n=MSFPpreload("_derived/up_cmp_radius010_hbtn.gif"); MSFPnav11h=MSFPpreload("_derived/up_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="sigma_Tools.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11h.src" onmouseout="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11n.src"><img src="_derived/up_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Up" align="middle" name="MSFPnav11"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav12n=MSFPpreload("_derived/5whys.htm_cmp_radius010_hbtn.gif"); MSFPnav12h=MSFPpreload("_derived/5whys.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="5whys.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav12'].src=MSFPnav12h.src" onmouseout="if(MSFPhover) document['MSFPnav12'].src=MSFPnav12n.src"><img src="_derived/5whys.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="5whys" align="middle" name="MSFPnav12"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav13n=MSFPpreload("_derived/affinity_diagram.htm_cmp_radius010_hbtn.gif"); MSFPnav13h=MSFPpreload("_derived/affinity_diagram.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="affinity_diagram.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav13'].src=MSFPnav13h.src" onmouseout="if(MSFPhover) document['MSFPnav13'].src=MSFPnav13n.src"><img src="_derived/affinity_diagram.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Affinity Diagram" align="middle" name="MSFPnav13"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav14n=MSFPpreload("_derived/Brainstorming.htm_cmp_radius010_hbtn.gif"); MSFPnav14h=MSFPpreload("_derived/Brainstorming.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Brainstorming.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav14'].src=MSFPnav14h.src" onmouseout="if(MSFPhover) document['MSFPnav14'].src=MSFPnav14n.src"><img src="_derived/Brainstorming.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Brainstorming" align="middle" name="MSFPnav14"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav15n=MSFPpreload("_derived/check_sheet.htm_cmp_radius010_hbtn.gif"); MSFPnav15h=MSFPpreload("_derived/check_sheet.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="check_sheet.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav15'].src=MSFPnav15h.src" onmouseout="if(MSFPhover) document['MSFPnav15'].src=MSFPnav15n.src"><img src="_derived/check_sheet.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Check Sheet" align="middle" name="MSFPnav15"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav16n=MSFPpreload("_derived/communication_plan.htm_cmp_radius010_hbtn.gif"); MSFPnav16h=MSFPpreload("_derived/communication_plan.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="communication_plan.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav16'].src=MSFPnav16h.src" onmouseout="if(MSFPhover) document['MSFPnav16'].src=MSFPnav16n.src"><img src="_derived/communication_plan.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Communication Plan" align="middle" name="MSFPnav16"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav17n=MSFPpreload("_derived/Control_charts.htm_cmp_radius010_hbtn.gif"); MSFPnav17h=MSFPpreload("_derived/Control_charts.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Control_charts.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav17'].src=MSFPnav17h.src" onmouseout="if(MSFPhover) document['MSFPnav17'].src=MSFPnav17n.src"><img src="_derived/Control_charts.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Control Charts" align="middle" name="MSFPnav17"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav18n=MSFPpreload("_derived/critical_to_quality.htm_cmp_radius010_hbtn.gif"); MSFPnav18h=MSFPpreload("_derived/critical_to_quality.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="critical_to_quality.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav18'].src=MSFPnav18h.src" onmouseout="if(MSFPhover) document['MSFPnav18'].src=MSFPnav18n.src"><img src="_derived/critical_to_quality.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Critical to Quality" align="middle" name="MSFPnav18"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav19n=MSFPpreload("_derived/data_collection.htm_cmp_radius010_hbtn.gif"); MSFPnav19h=MSFPpreload("_derived/data_collection.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="data_collection.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav19'].src=MSFPnav19h.src" onmouseout="if(MSFPhover) document['MSFPnav19'].src=MSFPnav19n.src"><img src="_derived/data_collection.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Data Collection" align="middle" name="MSFPnav19"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav20n=MSFPpreload("_derived/decision_matrix.htm_cmp_radius010_hbtn.gif"); MSFPnav20h=MSFPpreload("_derived/decision_matrix.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="decision_matrix.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav20'].src=MSFPnav20h.src" onmouseout="if(MSFPhover) document['MSFPnav20'].src=MSFPnav20n.src"><img src="_derived/decision_matrix.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Decision Matrix" align="middle" name="MSFPnav20"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav21n=MSFPpreload("_derived/doe.htm_cmp_radius010_hbtn.gif"); MSFPnav21h=MSFPpreload("_derived/doe.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="doe.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav21'].src=MSFPnav21h.src" onmouseout="if(MSFPhover) document['MSFPnav21'].src=MSFPnav21n.src"><img src="_derived/doe.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Design of Experiments" align="middle" name="MSFPnav21"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav22n=MSFPpreload("_derived/flowchart.htm_cmp_radius010_hbtn.gif"); MSFPnav22h=MSFPpreload("_derived/flowchart.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="flowchart.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav22'].src=MSFPnav22h.src" onmouseout="if(MSFPhover) document['MSFPnav22'].src=MSFPnav22n.src"><img src="_derived/flowchart.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Flowchart" align="middle" name="MSFPnav22"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav23n=MSFPpreload("_derived/FMEA.htm_cmp_radius010_hbtn.gif"); MSFPnav23h=MSFPpreload("_derived/FMEA.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="FMEA.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav23'].src=MSFPnav23h.src" onmouseout="if(MSFPhover) document['MSFPnav23'].src=MSFPnav23n.src"><img src="_derived/FMEA.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="FMEA" align="middle" name="MSFPnav23"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav24n=MSFPpreload("_derived/gantt_chart.htm_cmp_radius010_hbtn.gif"); MSFPnav24h=MSFPpreload("_derived/gantt_chart.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="gantt_chart.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav24'].src=MSFPnav24h.src" onmouseout="if(MSFPhover) document['MSFPnav24'].src=MSFPnav24n.src"><img src="_derived/gantt_chart.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Gantt Chart" align="middle" name="MSFPnav24"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav25n=MSFPpreload("_derived/goal_tree.htm_cmp_radius010_hbtn.gif"); MSFPnav25h=MSFPpreload("_derived/goal_tree.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="goal_tree.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav25'].src=MSFPnav25h.src" onmouseout="if(MSFPhover) document['MSFPnav25'].src=MSFPnav25n.src"><img src="_derived/goal_tree.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Goal Tree" align="middle" name="MSFPnav25"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav26n=MSFPpreload("_derived/histogram.htm_cmp_radius010_hbtn.gif"); MSFPnav26h=MSFPpreload("_derived/histogram.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="histogram.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav26'].src=MSFPnav26h.src" onmouseout="if(MSFPhover) document['MSFPnav26'].src=MSFPnav26n.src"><img src="_derived/histogram.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Histogram" align="middle" name="MSFPnav26"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav27n=MSFPpreload("_derived/fishbone.htm_cmp_radius010_hbtn.gif"); MSFPnav27h=MSFPpreload("_derived/fishbone.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="fishbone.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav27'].src=MSFPnav27h.src" onmouseout="if(MSFPhover) document['MSFPnav27'].src=MSFPnav27n.src"><img src="_derived/fishbone.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Ishikawa (Fishbone)" align="middle" name="MSFPnav27"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav28n=MSFPpreload("_derived/Mistaking­_Proofing.htm_cmp_radius010_hbtn.gif"); MSFPnav28h=MSFPpreload("_derived/Mistaking­_Proofing.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Mistaking­_Proofing.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav28'].src=MSFPnav28h.src" onmouseout="if(MSFPhover) document['MSFPnav28'].src=MSFPnav28n.src"><img src="_derived/Mistaking­_Proofing.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Mistaking Proofing" align="middle" name="MSFPnav28"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav29n=MSFPpreload("_derived/operational_definition.htm_cmp_radius010_hbtn.gif"); MSFPnav29h=MSFPpreload("_derived/operational_definition.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="operational_definition.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav29'].src=MSFPnav29h.src" onmouseout="if(MSFPhover) document['MSFPnav29'].src=MSFPnav29n.src"><img src="_derived/operational_definition.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Operational Definition" align="middle" name="MSFPnav29"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav30n=MSFPpreload("_derived/pareto_chart.htm_cmp_radius010_hbtn.gif"); MSFPnav30h=MSFPpreload("_derived/pareto_chart.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="pareto_chart.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav30'].src=MSFPnav30h.src" onmouseout="if(MSFPhover) document['MSFPnav30'].src=MSFPnav30n.src"><img src="_derived/pareto_chart.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Pareto Chart" align="middle" name="MSFPnav30"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav31n=MSFPpreload("_derived/process_sigma_chart.htm_cmp_radius010_hbtn.gif"); MSFPnav31h=MSFPpreload("_derived/process_sigma_chart.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="process_sigma_chart.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav31'].src=MSFPnav31h.src" onmouseout="if(MSFPhover) document['MSFPnav31'].src=MSFPnav31n.src"><img src="_derived/process_sigma_chart.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Process Sigma Chart" align="middle" name="MSFPnav31"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav32n=MSFPpreload("_derived/Project_charter.htm_cmp_radius010_hbtn.gif"); MSFPnav32h=MSFPpreload("_derived/Project_charter.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="Project_charter.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav32'].src=MSFPnav32h.src" onmouseout="if(MSFPhover) document['MSFPnav32'].src=MSFPnav32n.src"><img src="_derived/Project_charter.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Project Charter" align="middle" name="MSFPnav32"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav33n=MSFPpreload("_derived/reg_Analysis.htm_cmp_radius010_hbtn.gif"); MSFPnav33h=MSFPpreload("_derived/reg_Analysis.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="reg_Analysis.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav33'].src=MSFPnav33h.src" onmouseout="if(MSFPhover) document['MSFPnav33'].src=MSFPnav33n.src"><img src="_derived/reg_Analysis.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Regression Analysis" align="middle" name="MSFPnav33"></a> <img src="_derived/run_charts.htm_cmp_radius010_hbtn_p.gif" width="140" height="40" border="0" alt="Run Charts" align="middle"> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav34n=MSFPpreload("_derived/scatter_diagram.htm_cmp_radius010_hbtn.gif"); MSFPnav34h=MSFPpreload("_derived/scatter_diagram.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="scatter_diagram.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav34'].src=MSFPnav34h.src" onmouseout="if(MSFPhover) document['MSFPnav34'].src=MSFPnav34n.src"><img src="_derived/scatter_diagram.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Scatter Diagram" align="middle" name="MSFPnav34"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav35n=MSFPpreload("_derived/stratification.htm_cmp_radius010_hbtn.gif"); MSFPnav35h=MSFPpreload("_derived/stratification.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="stratification.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav35'].src=MSFPnav35h.src" onmouseout="if(MSFPhover) document['MSFPnav35'].src=MSFPnav35n.src"><img src="_derived/stratification.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Stratification" align="middle" name="MSFPnav35"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav36n=MSFPpreload("_derived/spc.htm_cmp_radius010_hbtn.gif"); MSFPnav36h=MSFPpreload("_derived/spc.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="spc.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav36'].src=MSFPnav36h.src" onmouseout="if(MSFPhover) document['MSFPnav36'].src=MSFPnav36n.src"><img src="_derived/spc.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="Statistical Process Control (SPC)" align="middle" name="MSFPnav36"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav37n=MSFPpreload("_derived/sipoc.htm_cmp_radius010_hbtn.gif"); MSFPnav37h=MSFPpreload("_derived/sipoc.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="sipoc.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav37'].src=MSFPnav37h.src" onmouseout="if(MSFPhover) document['MSFPnav37'].src=MSFPnav37n.src"><img src="_derived/sipoc.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="SIPOC" align="middle" name="MSFPnav37"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav38n=MSFPpreload("_derived/voc.htm_cmp_radius010_hbtn.gif"); MSFPnav38h=MSFPpreload("_derived/voc.htm_cmp_radius010_hbtn_a.gif"); }
+// --></script><a href="voc.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav38'].src=MSFPnav38h.src" onmouseout="if(MSFPhover) document['MSFPnav38'].src=MSFPnav38n.src"><img src="_derived/voc.htm_cmp_radius010_hbtn.gif" width="140" height="40" border="0" alt="VOC" align="middle" name="MSFPnav38"></a></p>
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<div align="center">
+	<table cellpadding="0" cellspacing="0" width="610" height="450">
+		<!-- MSTableType="layout" -->
+		<tr>
+			<td width="610" height="450" valign="top">
+<table cellSpacing="2" cellPadding="4" width="99%" border="0" id="table18">
+	<tr>
+		<td class="maintext"><u><b><font size="5">Run Charts:</font></b></u><p>
+		Excel Template: <a href="Tool%20Examples/Runchart.xls">click here</a></p>
+		<p>Run charts are 
+		used to show trends in data over time. All processes vary, so single 
+		point measurements can be misleading. Displaying data over time 
+		increases understanding of the real performance of a process, 
+		particularly with regard to an established target or goal. Following is 
+		an example of a trend chart of order fill rate performance: 
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 1<br>
+		<img height="268" alt="" src="images/4041.gif" width="442" border="0"> 
+		</td>
+	</tr>
+	<tr>
+		<td class="subheader">Major Elements:</td>
+	</tr>
+	<tr>
+		<td class="maintext">A good trend chart has the following 
+		characteristics: 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table19">
+			<tr>
+				<td class="maintext" vAlign="top">
+				<ul>
+					<li>A clear <b class="mainbold">Title</b> to 
+				describe the subject of the chart.</li>
+					<li><b class="mainbold">Labels</b> on the 
+				vertical Y-axis and horizontal X-axis to describe the 
+				measurement and the time period.</li>
+					<li>A <b class="mainbold">Legend</b> to 
+				differentiate the plotted lines - in this case, the actual vs. 
+				the goal.</li>
+					<li>Appropriate <b class="mainbold">Scales</b> 
+				that are narrow enough to show variation.</li>
+					<li><b class="mainbold">Limited Characteristics</b> 
+				on each chart to avoid confusion from too many lines.</li>
+					<li>An appropriate <b class="mainbold">Time 
+				Frame</b>.</li>
+					<li>Notations on any <b class="mainbold">major 
+				spikes</b>.</li>
+					<li><b class="mainbold">Targets or Goals</b> 
+				should be noted on the chart for reference.</li>
+				</ul>
+				<p>Note <b class="mainbold">Who Prepared</b> 
+				the chart in case there are questions about the chart or the 
+				data.</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext">Two common errors in chart construction are shown 
+		below: 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table20">
+			<tr>
+				<td class="maintext">The first chart has a scale that is so wide 
+				that little variation can be seen. The data are correct (and are 
+				the same as in Figure 1 shown above), but the chart is not very 
+				useful because the scale is so wide (0-100%).</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 2<br>
+		<img height="267" alt="" src="images/4042.gif" width="420" border="0"> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table21">
+			<tr>
+				<td class="maintext">The second chart has a scale that includes 
+				impossible numbers based on the definition of the metric being 
+				charted. In this case, fill rate can not be higher than 100%, so 
+				a scale that goes to 120% is misleading. Again, this chart uses 
+				the same data as Figure 1 and 2, but conveys a different 
+				message.</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 3<br>
+		<img height="240" alt="" src="images/4043.gif" width="401" border="0"> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table22">
+			<tr>
+				<td class="maintext">A third problem arises from using long time 
+				scales and inappropriate trend line plots. The MoreSteam editors 
+				know a Quality Manager at a major automobile manufacturer who 
+				was renowned for choosing time scales long enough to pick up an 
+				unfavorable baseline, and therefore indicate improvement in 
+				subsequent periods. Sometimes this practice is helpful for a 
+				long term perspective, but it can be confusing if it diverts 
+				attention from more recent events - especially when a trend line 
+				is plotted through the data. Consider the following chart of 
+				quality complaints, or &quot;Things Gone Wrong&quot; (TGW's):</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 4<br>
+		<img height="342" alt="" src="images/4044.gif" width="441" border="0"> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table23">
+			<tr>
+				<td class="maintext">It is a fact that the TGW level in 1999 
+				(1,320) is 44.5% lower than it was in 1989 (2,378). The trend 
+				line appears to indicate continuous improvement over time. 
+				However, the process is relatively stable since 1990, with 
+				little sustained improvement since that time, and an increase in 
+				TGW's over the last two years. The presentation of the chart can 
+				tell two different stories, and the trend line is not 
+				appropriate in this instance. See the discussion below and 
+				Figure 6 on the use of reference bars. </td>
+			</tr>
+			<tr>
+				<td class="maintext">Many times a chart will exhibit an 
+				apparently abnormal fluctuation, or &quot;spike&quot;, as seen in June of 
+				the chart below. Since such spikes always raise questions, a 
+				good rule of thumb is to pro-actively answer the question by 
+				putting a note on the chart as shown below. This practice also 
+				provides documentation of the history of a process and helps to 
+				connect cause with effect. </td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 5<br>
+		<img height="273" alt="" src="images/4045.gif" width="467" border="0"> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table24">
+			<tr>
+				<td class="maintext">It is not always obvious when a &quot;spike&quot; 
+				occurs. Control charts use statistical rules to establish 
+				Control Limits that give indication of a statistically 
+				significant change in the process. See the
+				<a class="mainlink" href="spc.htm">Statistical Process Control</a> section of the Toolbox for a 
+				tutorial on Control Charts.</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">&nbsp;</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellSpacing="0" cellPadding="2" width="85%" align="center" border="0" id="table25">
+			<tr>
+				<td class="maintext">A further improvement to aid understanding 
+				of a trend chart is to add Reference Bars. The chart below is 
+				the same as that represented by Figure 5, but has reference bars 
+				added to show the performance in prior years. The addition 
+				broadens the reader's perspective by showing the extent of 
+				improvement over a longer time horizon.</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="maintext" align="middle">Figure 6<br>
+		<img height="298" alt="" src="images/4046.gif" width="479" border="0"> 
+		</td>
+	</tr>
+</table>
+
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<h5 style="text-align: center">Last modified:
+12/18/06 </h5>
+
+</td></tr><!--msnavigation--></table></body>
+
+</html>
