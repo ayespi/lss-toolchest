@@ -1,0 +1,96 @@
+.mstheme
+{
+	separator-image: url(toprulea.gif);
+	list-image-1: url(topbul1a.gif);
+	list-image-2: url(topbul2a.gif);
+	list-image-3: url(topbul3a.gif);
+	nav-banner-image: url(banner.gif);
+	navbutton-horiz-normal: url(topnavha.gif);
+	navbutton-horiz-hovered: url(topnavhh.gif);
+	navbutton-horiz-pushed: url(topnavhe.gif);
+	navbutton-vert-normal: url(topnavva.gif);
+	navbutton-vert-hovered: url(topnavvh.gif);
+	navbutton-vert-pushed: url(topnavve.gif);
+	navbutton-home-normal: url(tophoma.gif);
+	navbutton-home-hovered: url(tophomh.gif);
+	navbutton-home-pushed: url(tophoma.gif);
+	navbutton-next-normal: url(topnxta.gif);
+	navbutton-next-hovered: url(topnxth.gif);
+	navbutton-next-pushed: url(topnxta.gif);
+	navbutton-prev-normal: url(topprea.gif);
+	navbutton-prev-hovered: url(toppreh.gif);
+	navbutton-prev-pushed: url(topprea.gif);
+	navbutton-up-normal: url(topupa.gif);
+	navbutton-up-hovered: url(topuph.gif);
+	navbutton-up-pushed: url(topupa.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: Times New Roman;
+	color: rgb(0, 102, 255);
+	font-size: 6;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-vert-navtxt
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxthome
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtnext
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtprev
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtup
+{
+	font-family: trebuchet ms,arial,helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+ul
+{
+	list-style-image: url(topbul1a.gif);
+}
+ul ul
+{
+	list-style-image: url(topbul2a.gif);
+}
+ul ul ul
+{
+	list-style-image: url(topbul3a.gif);
+}
